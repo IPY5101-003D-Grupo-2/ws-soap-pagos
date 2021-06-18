@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<soap:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+    <soap:Body>
+        <ns1:check_payment xmlns:ns1='visa.mastercard.payment'>
+            <ns1:full_name>luis correa</ns1:full_name>
+            <ns1:card_number>5412750123450987</ns1:card_number>
+            <ns1:cvv_number>123</ns1:cvv_number>
+            <ns1:type>visa</ns1:type>
+            <ns1:expiration_month>12</ns1:expiration_month>
+            <ns1:expiration_year>2022</ns1:expiration_year>
+        </ns1:check_payment>
+    </soap:Body>
+</soap:Envelope>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<soap:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+    <soap:Body>
+        <ns1:say_hello xmlns:ns1='spyne.examples.hello'>
+            <ns1:name>holi</ns1:name>
+            <ns1:times>3</ns1:times>
+        </ns1:say_hello>
+    </soap:Body>
+</soap:Envelope>
