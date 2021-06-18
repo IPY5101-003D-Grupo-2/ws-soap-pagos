@@ -1,2 +1,1 @@
-release: chmod u+x app.py
-web: ./app.py
+web: python app.py
